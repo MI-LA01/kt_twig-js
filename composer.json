@@ -1,5 +1,5 @@
 {
-    "name": "mi-la01/kt_twig-js",
+    "name": "jms/twig-js",
     "type": "library",
     "description": "twig.js, flexible, secure, and high-performance templating engine for Javascript",
     "keywords": ["templating"],
@@ -16,6 +16,7 @@
     },
 
     "require-dev": {
+        "dnode/dnode": "dev-master",
         "phpunit/phpunit": "3.7.*@dev",
         "squizlabs/php_codesniffer": "1.*"
     },
@@ -23,5 +24,10 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": { "TwigJs": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
 }
